@@ -30,3 +30,25 @@ let someNum = 33
 let stringNum = String(someNum);
 
 console.log(typeof(stringNum));
+
+
+//*****************OPERATIONS***********
+
+let str1 = "hello"
+let str2 = "sumant"
+let str3 = str1 + str2;
+
+console.log(str3);
+
+
+// confusing
+console.log("2" + 1);   //21
+console.log(2 + "1")    //21
+console.log("2" + 1 + 2)    //212
+console.log(2 + 1 + "2")    //32
+
+//confusing 2
+console.log(+true)  //1
+console.log(+"")    //0
+
+//confusing 3(prefix and postfix)
