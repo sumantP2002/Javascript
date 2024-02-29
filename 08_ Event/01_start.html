@@ -50,9 +50,13 @@
 
     document.querySelector('#images').addEventListener('click' , (e) => {
         console.log(e.target.parentNode);
-        let remove = e.target.parentNode;
-        //to remove that thing
-        removeIt.remove();
+        console.log(e.target.tagName);
+        if(e.target.tagName === 'IMG'){
+            let removeIt = e.target.parentNode;
+            //to remove that thing
+            removeIt.remove();
+        }
+        
     })
 
 
