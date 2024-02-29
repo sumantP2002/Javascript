@@ -13,9 +13,24 @@
 </body>
 
 <script>
-    const say
+    const start = document.querySelector('#start');
+    const stop = document.querySelector('#stop');
+    const h1 = document.querySelector('h1');
+    const call = function(no){
+        h1.innerHTML = `my name is ${no}`;
+    }
+    let name = "sumant";
+    
 
-    setInterval( , )
+    start.addEventListener('click' , (e)=>{
+        e.preventDefault();
+        var setcall = setInterval(call , 2000 , name);
+    })
+
+    stop.addEventListener('click' , (e) => {
+        e.preventDefault();
+        clearInterval(setcall);
+    })
 
 </script>
 </html>
