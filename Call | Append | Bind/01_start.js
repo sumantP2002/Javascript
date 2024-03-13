@@ -29,3 +29,13 @@ sayIntro.apply(student2 , ["karol" , "bagh" , "delhi"])
 
 let store = sayIntro.bind(student , "karol" , "bagh" , "delhi")
 store();
+
+
+//curring in js
+
+let multiply = function(x , y){
+    console.log(x*y);
+}
+
+let multiplyby2 = multiply.bind(this , 2);      //here we preseet some value of function and call with remaining value via argument.
+multiplyby2(3);
