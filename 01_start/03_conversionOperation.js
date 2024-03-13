@@ -46,9 +46,13 @@ console.log("2" + 1);   //21
 console.log(2 + "1")    //21
 console.log("2" + 1 + 2)    //212
 console.log(2 + 1 + "2")    //32
+console.log(5+7+"5");   //125
 
 //confusing 2
 console.log(+true)  //1
 console.log(+"")    //0
 
 //confusing 3(prefix and postfix)
+
+let gameCounter = 100
+console.log(gameCounter++);

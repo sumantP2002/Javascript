@@ -28,7 +28,7 @@ let anotherName = myYoutubeName;
 
 let userOne = {
     name: "sumant",
-    mail: "sumanttpc@gmail.com"
+    email: "sumanttpc@gmail.com"
 }
 
 let userTwo = userOne;
